@@ -13,7 +13,8 @@ UCLASS()
 class MYPROJECT_API UMyWidgetComponent : public UWidgetComponent
 {
 	GENERATED_BODY()
-	
+
+public:
 	UFUNCTION(BlueprintCallable, Category = UserInterface)
 	void EnableInput(bool bEnable)
 	{
